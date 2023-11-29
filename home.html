@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HomeCodeStar</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Baslik kisimlari-->
+    <header class="header">
+      <section class="flex">
+        <a href="home.html" class="logo">CodeStar</a>
+        <form method="post" class="search-form" action="#">
+          <input
+            type="text"
+            name="search_box"
+            placeholder="Hangi kursu arıyorsun?.."
+            required
+            maxlength="100"
+          />
+          <button
+            type="submit"
+            class="fas fa-search"
+            name="search_box"
+          ></button>
+        </form>
+        <div class="icons">
+          <div id="menu-btn" class="fas fa-bars"></div>
+          <div id="search-btn" class="fas fa-search"></div>
+          <div id="user-btn" class="fas fa-user"></div>
+          <div id="toggle-btn" class="fas fa-sun"></div>
+        </div>
+
+        <div class="profile">
+          <img src="erkekk.png" alt="" />
+          <h3>Farid Alizada</h3>
+          <h3><span>Öğrenci</span></h3>
+          <a href="profile.html" class="btn">Profile göz at</a>
+          <div class="flex-btn">
+            <a href="login.html" class="option-btn">Giriş</a>
+            <a href="register.html" class="option-btn">Kayit</a>
+          </div>
+        </div>
+      </section>
+    </header>
+    <!--yan bar baslangic-->
+    <div class="side-bar">
+      <div class="close-side-bar">
+        <i class="fas fa-times"></i>
+      </div>
+
+      <div class="profile">
+        <img src="erkekk.png" alt="Profile Picture of Farid Alizada" />
+        <h3>Farid Alizada</h3>
+        <h3><span>Öğrenci</span></h3>
+        <a href="profile.html" class="btn">Profili İncele</a>
+      </div>
+
+      <nav class="navbar">
+        <a href="home.html">
+          <i class="fas fa-home"></i><span>Ana Sayfa</span>
+        </a>
+        <a href="about.html">
+          <i class="fas fa-question"></i><span>Hakkımızda</span>
+        </a>
+        <a href="Kurslar.html">
+          <i class="fas fa-graduation-cap"></i><span>Kurslar</span>
+        </a>
+        <a href="teacher.html">
+          <i class="fas fa-chalkboard-user"></i><span>Hocalar</span>
+        </a>
+        <a href="contact.html">
+          <i class="fas fa-headset"></i><span>İletişim</span>
+        </a>
+      </nav>
+    </div>
+
+    <!--yan bar bitis-->
+
+    <!-- baglantilar-->
+    <footer class="footer">
+      &copy; 2023 Copyright <span>MEÜ Öğrencisi Farid Alizada</span> | Tüm
+      Hakları Saklıdır!
+    </footer>
+
+    <!-- baglanti bitis-->
+
+    <!--js dosya lin-->
+
+    <script src="index.js"></script>
+  </body>
+</html>
